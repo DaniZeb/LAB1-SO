@@ -141,7 +141,7 @@ int leer(char *N_archivo){
    system(instruccion);
    
    fin = clock();
-   tiempo = fin - comienzo/(double)CLOCKS_PER_SEC;
+   tiempo = (fin - comienzo)/(double)CLOCKS_PER_SEC;
    printf("%ld - %ld = %f\n", fin, comienzo, tiempo);   
    return 0;
 }
