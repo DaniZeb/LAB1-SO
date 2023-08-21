@@ -8,6 +8,19 @@
 #include <ctype.h>
 #include <time.h>
 
+/* 
+DESCRIPCION:
+   Se inicia el conteo. Se pone en mayuscula la palabra a buscar, se lee la horientacion y luego se va letra por letra en la primera linea para saber el tamaño de la sopa de letras.
+   Se vuelve al inicio y dependiendo de la horientacion se puede generar la matriz o buscar la palabra directamente con strstr.
+   Al encontrar la palabra, esta se imprime y se generan las rutas de origen, y las de destino, y la carpeta de ser necesario.
+   Se mueve el archivo al directorio debido. Se termina el conteo y se calcula el tiempo tomado, imprimiendolo por pantalla.
+
+PARAMETROS:
+   N_archivo: Nombre del Archivo con la sopa de letra
+RETORNOS:
+   1 en caso de falla
+   0 en caso de exito
+*/
 int leer(char *N_archivo){
    clock_t comienzo, fin;
    double tiempo;
