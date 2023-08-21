@@ -14,8 +14,8 @@ DESCRIPCION:
    Se vuelve al inicio y se guarda la sopa en una matriz cuadrada del tamaño de la sopa.
    Se va espacio por espacio buscando la primera letra de la palabra buscada, al encontrarla se ve si concuerdan las siguientes en el sentido descrito. Si concuerda se termina el programa
    sino, se sigue leyendo la matriz.
-   Al encontrar la palabra, esta se imprime y se generan las rutas de origen, y las de destino, y la carpeta de ser necesario, y mueve el archivo al directorio debido.
-   Se termina el conteo y se calcula el tiempo tomado, imprimiendolo por pantalla.
+   Al encontrar la palabra, esta se imprime y se generan las rutas de origen, y las de destino, y la carpeta de ser necesario
+   Se mueve el archivo al directorio debido. Se termina el conteo y se calcula el tiempo tomado, imprimiendolo por pantalla.
 
 PARAMETROS:
    N_archivo: Nombre del Archivo con la sopa de letra
