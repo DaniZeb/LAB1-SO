@@ -146,6 +146,14 @@ int leer(char *N_archivo){
    return 0;
 }
 
+/*
+DESCRIPCION:
+   SE GENERAN LAS CARPETAS "Horizontal" y "Vertical". Se lee la carpeta "Archivos" donde se encuentran las sopas de letras y se llama la funcion leer enviando el nombre de todos los archivos terminados en .txt
+
+RETORNOS:
+   1 en caso de falla
+   0 en caso de exito
+*/
 int main(){
    DIR *dir;
    struct dirent *ent;
